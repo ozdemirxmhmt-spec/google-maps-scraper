@@ -39,4 +39,4 @@ EXPOSE 8001
 
 # Define the command to run the application
 # Use 0.0.0.0 to make it accessible from outside the container
-CMD ["uvicorn", "gmaps_scraper_server.main_api:app", "--host", "0.0.0.0", "--port", "8001"]
+CMD ["uvicorn", "gmaps_scraper_server.main_api:app", "--host", "0.0.0.0", "--port", "10000"]
